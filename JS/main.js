@@ -72,15 +72,3 @@ document.addEventListener("click", function(ele) {
         }
     }
 })
-
-
-
-
-
-
-
-
-
-
-
-

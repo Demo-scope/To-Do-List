@@ -3,12 +3,6 @@ body {
 }
 
 
-
-
-
-
-
-
 .contaner {
     width: 600px;
     margin: 30px auto 0;
@@ -52,17 +46,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .contaner .tasks-content {
     padding: 15px;
 }
@@ -94,14 +77,6 @@ body {
     text-decoration: line-through;
     opacity: 0.7;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -141,21 +116,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .importantAlert {
     position: absolute;
     top: 50%;
@@ -169,5 +129,3 @@ body {
     width: 100%;
     text-align: center;
 }
-
-
