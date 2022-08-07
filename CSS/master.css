@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+.contaner {
+    width: 600px;
+    margin: 30px auto 0;
+    background-color: #f6f6f6;
+}
+.contaner .add-task {
+    padding: 15px;
+    background-color: #009688;
+    position: relative;
+}
+.contaner .add-task input {
+    display: inline-block;
+    padding: 10px 18px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: calc(100% - 60px);
+    color: white;
+    font-size: 20px;
+}
+.contaner .add-task input:focus,
+.contaner .add-task input:focus-visible {
+    outline: none;
+}
+.contaner .add-task .plus {
+    position: absolute;
+    right: 12px;
+    width: 43px;
+    height: 43px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 43px;
+    text-align: center;
+    color: #009688;
+    cursor: pointer;
+    font-size: 38px;
+    transition: transform 0.3s;
+    user-select: none;
+}
+.contaner .add-task .plus:hover {
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contaner .tasks-content {
+    padding: 15px;
+}
+.contaner .tasks-content .no-tasks-message {
+    color: #777;
+    font-size: 15px;
+}
+.contaner .tasks-content > span {
+    display: block;
+    background-color: white;
+    padding: 10px;
+}
+.contaner .tasks-content > span:not(:last-child) {
+    margin-bottom: 10px;
+}
+.contaner .tasks-content .task-box .delete {
+    float: right;
+    background-color: #e91e63;
+    padding: 4px 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 14px;
+    user-select: none;
+}
+.contaner .tasks-content .task-box.finished {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+.task-states {
+    overflow: hidden;
+    margin: 10px auto;
+    width: 600px;
+    font-size: 12px;
+}
+.task-states .tasks-count {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+.task-states .tasks-completed {
+    width: 50%;
+    float: right;
+    padding: 10px;
+    text-align: right;
+}
+.task-states .tasks-count span,
+.task-states .tasks-completed span {
+    color: white;
+    padding: 1px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+.task-states .tasks-count span {
+    background-color: #e91e63;
+}
+.task-states .tasks-completed span {
+    background-color: #03a9f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.importantAlert {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f6f6f6;
+    font-weight: bold;
+    font-size: 45px;
+    user-select: none;
+    z-index: -1;
+    letter-spacing: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+
